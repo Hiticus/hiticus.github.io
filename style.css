@@ -20,7 +20,6 @@ position: fixed;
  top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-
 font-family: 'Roboto', sans-serif;  
 position: absolute;
 justify-items: center; 
@@ -30,7 +29,7 @@ background-color: white;
 border-radius: 10px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 grid-template-columns: 100px 300px;
-grid-template-rows: 100px 50px 50px 50px;
+grid-template-rows: 150px 50px 50px 50px 50px;
 
 }
 .img{
@@ -46,7 +45,6 @@ grid-template-rows: 100px 50px 50px 50px;
   justify-items: center;
 }
 h5{
-  align-self: right;
-  grid-column: span 2;
+  /* grid-column: span 2; */
   color: rgb(58, 58, 58);
 }
