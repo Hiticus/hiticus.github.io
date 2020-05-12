@@ -1,0 +1,52 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.card{
+position: fixed;
+ top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+font-family: 'Roboto', sans-serif;  
+position: absolute;
+justify-items: center; 
+align-items: center; 
+display: grid;  
+background-color: white;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+grid-template-columns: 100px 300px;
+grid-template-rows: 100px 50px 50px 50px;
+
+}
+.img{
+  justify-self: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text{
+  align-items: center;
+  justify-items: center;
+}
+h5{
+  align-self: right;
+  grid-column: span 2;
+  color: rgb(58, 58, 58);
+}
